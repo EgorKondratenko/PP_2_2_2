@@ -1,8 +1,5 @@
 package web.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Car {
     private String brand;
     private String model;
@@ -30,8 +27,5 @@ public class Car {
     public void setYear() {
         this.year = year;
     }
-    public static List<Car> createListCars() {
-        List<Car> listCar = new ArrayList<>();
-        return listCar;
-    }
+
 }
